@@ -5,8 +5,8 @@ This repository is a sample implementation of `WETHPaymaster`, a trustless Payma
 ## Features
 
 - Just like with Wrapped Ether, 1 `ETH` is always equal to 1 `WETHP`, deposited/withdrawn without relying in any oracles
-- Unlike Wrapped Ether, you can pay for your AA User Operations
-- Unlike the default Paymaster implementations, completely trustless
+- Unlike Wrapped Ether, it can pay for your AA User Operations
+- Unlike the default Paymaster implementations, it is completely trustless
 
 ## Motivations
 
