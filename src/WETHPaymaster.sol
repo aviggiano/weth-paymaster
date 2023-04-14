@@ -45,7 +45,7 @@ contract WETHPaymaster is ERC20, IWETH9, IPaymaster {
 
         address sender = abi.decode(context, (address));
         uint256 charge = (actualGasCost + COST_OF_POST);
-        _transfer(sender, address(this), charge);
+        _burn(sender, charge);
     }
 
     function addStake(uint32 unstakeDelaySec) external payable {
